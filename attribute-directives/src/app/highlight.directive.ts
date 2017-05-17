@@ -9,10 +9,14 @@ export class HighlightDirective{
 	constructor(private el: ElementRef){
 	}
 
-	@Input() defaultColor: string;
+	@Input('colour') defaultColor: string;
 
 	@Input('myHighlight') highlightColor: string;
 
+	/*
+	* The @HostListener decorator lets you subscribe to events of the DOM element
+	* that hosts an attribute directive, the <p> in this case.
+	* */
 	@HostListener('mouseenter') onMouseEnter(){
 		this.highlight(this.highlightColor || this.defaultColor || 'red');
 	}

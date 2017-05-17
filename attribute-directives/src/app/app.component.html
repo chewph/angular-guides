@@ -7,8 +7,11 @@
   <input type="radio" name="colors" (click)="color='cyan'">Cyan
 </div>
 <p [myHighlight]="color">Highlight me!</p>
+<p>Angular found the myHighlight attribute on the p element. It created an instance of the HighlightDirective class
+	and injected areference to the p element into the directive's constructor which sets the p element's
+	background style to yellow.</p>
 
-<p [myHighlight]="color" defaultColor="violet">
+<p [myHighlight]="color" [colour]="violet">
   Highlight me too!
 </p>
 

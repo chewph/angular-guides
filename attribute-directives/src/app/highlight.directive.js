@@ -15,6 +15,10 @@ var HighlightDirective = (function () {
     function HighlightDirective(el) {
         this.el = el;
     }
+    /*
+    * The @HostListener decorator lets you subscribe to events of the DOM element
+    * that hosts an attribute directive, the <p> in this case.
+    * */
     HighlightDirective.prototype.onMouseEnter = function () {
         this.highlight(this.highlightColor || this.defaultColor || 'red');
     };
@@ -27,7 +31,7 @@ var HighlightDirective = (function () {
     return HighlightDirective;
 }());
 __decorate([
-    core_1.Input(),
+    core_1.Input('colour'),
     __metadata("design:type", String)
 ], HighlightDirective.prototype, "defaultColor", void 0);
 __decorate([
