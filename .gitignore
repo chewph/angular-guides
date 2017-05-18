@@ -6,7 +6,7 @@
 /out-tsc
 
 # dependencies
-node_modules 
+node_modules
 
 # IDEs and editors
 /.idea
@@ -40,3 +40,27 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+hierarchical-dependency-injection/src/app/app.component.js
+hierarchical-dependency-injection/src/app/app.component.js.map
+hierarchical-dependency-injection/src/app/app.module.js
+hierarchical-dependency-injection/src/app/app.module.js.map
+hierarchical-dependency-injection/src/app/car.components.js
+hierarchical-dependency-injection/src/app/car.components.js.map
+hierarchical-dependency-injection/src/app/car.services.js
+hierarchical-dependency-injection/src/app/car.services.js.map
+hierarchical-dependency-injection/src/app/hero-tax-return.component.js
+hierarchical-dependency-injection/src/app/hero-tax-return.component.js.map
+hierarchical-dependency-injection/src/app/hero-tax-return.service.js
+hierarchical-dependency-injection/src/app/hero-tax-return.service.js.map
+hierarchical-dependency-injection/src/app/hero.js
+hierarchical-dependency-injection/src/app/hero.js.map
+hierarchical-dependency-injection/src/app/heroes-list.component.js
+hierarchical-dependency-injection/src/app/heroes-list.component.js.map
+hierarchical-dependency-injection/src/app/heroes.service.js
+hierarchical-dependency-injection/src/app/heroes.service.js.map
+hierarchical-dependency-injection/src/app/villains-list.component.js
+hierarchical-dependency-injection/src/app/villains-list.component.js.map
+hierarchical-dependency-injection/src/app/villains.service.js
+hierarchical-dependency-injection/src/app/villains.service.js.map
+hierarchical-dependency-injection/src/main.js
+hierarchical-dependency-injection/src/main.js.map
