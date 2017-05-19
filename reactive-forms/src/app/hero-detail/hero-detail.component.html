@@ -6,6 +6,11 @@
 	<input class="form-control" [formControl]="name">
 </label>
 -->
+
+<!--
+To let Angular know that this is the input that you want to associate to the name FormControl in the class,
+you need [formControl]="name" in the template on the <input>.
+-->
 <h3><i>FormControl in a FormGroup</i></h3>
 <form [formGroup]="heroForm" novalidate>
 	<div class="form-group">
